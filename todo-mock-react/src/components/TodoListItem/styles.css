@@ -1,0 +1,51 @@
+.todoItem--container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 8px;
+  position: relative;
+  justify-content: space-between;
+  animation: fadeIn 0.8s;
+}
+
+.todoItem--container span {
+  margin-left: 8px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.done-Item {
+  text-decoration: line-through;
+}
+.delete--button {
+  fill: #bdbdbd;
+  transition: 0.3s;
+}
+.delete--button:hover {
+  fill: #f18989;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+.checkbox--container .checkmark {
+  border: 1px solid #828282;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 24px;
+  width: 24px;
+  fill: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.checkbox--container .checked {
+  border-color: #6da6f2;
+  background-color: #6da6f2;
+  fill: white;
+}
