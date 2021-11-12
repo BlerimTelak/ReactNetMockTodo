@@ -1,5 +1,4 @@
 .todoItem--container {
-  display: flex;
   align-items: center;
   cursor: pointer;
   margin-bottom: 8px;
@@ -20,6 +19,7 @@
 .delete--button {
   fill: #bdbdbd;
   transition: 0.3s;
+  margin-left: 5px;
 }
 .delete--button:hover {
   fill: #f18989;

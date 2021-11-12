@@ -28,8 +28,9 @@ const TodoListItem: React.FC<any> = props => {
                         <Checkmark className={`checkmark ${isChecked}`} onClick={checkmarkClickHandler}/>
                     </label>
                     <span className={isDone}>{props.todo.text}</span>
-                </div>
                     <DeleteIcon className="delete--button" onClick={deleteClickHandler}></DeleteIcon>
+
+                </div>
             </li>
         </div>
     )

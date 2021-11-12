@@ -2,4 +2,8 @@ todo-mock-react/.idea
 todo-mock-react/.git
 todo-mock-react/node_modules
 TodoMockNet/.vs
+TodoMockNet/TodoMockNet/bin
+TodoMockNet/TodoMockNet/obj
+TodoMockNet/TodoMockNet.XUnit/bin
+TodoMockNet/TodoMockNet.XUnit/obj
 TodoMockNet/packages

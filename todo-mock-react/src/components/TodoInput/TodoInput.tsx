@@ -10,6 +10,7 @@ const TodoInput: React.FC<any> = props => {
 
     function clickHandler(){
         createTodoItem(addTodoInputBoxValue);
+        setAddTodoInputBoxValue("");
     }
 
     function handleTextInputChange(source: any)
